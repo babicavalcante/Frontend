@@ -10,6 +10,9 @@ export default function Home() {
       <Button variant="primary">Primary</Button>{' '}
 
       <Cabecalho titulo="Página Inicial" sub="Barbara" />
+      <Cabecalho titulo="Frontend" />
+      <Cabecalho titulo="Cabeçalho" />
+      <Cabecalho titulo="React" />
 
       <Link href="/fundamentos">Página Fundamentos</Link><br />
       <Link href="/clientes">Página Clientes</Link><br />

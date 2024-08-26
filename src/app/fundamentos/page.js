@@ -8,17 +8,19 @@ export default function Fundamentos() {
 
     return (
         <>
-            <Cabecalho />
-            <Link href="/">Página Inicial</Link><br />
-            <Link href="/clientes">Página Clientes</Link><br />
+            <Cabecalho titulo="Fundamentos" />
+        
             <Container>
                 <Alert>
                     Atenção! Preste muita atenção.
                 </Alert>
 
+                <Link href="/">Página Inicial</Link><br />
+                <Link href="/clientes">Página Clientes</Link><br />
+
                 <h1>Fundamentos</h1>
                 <p>Sucesso</p>
-                1<Cabecalho />
+                <Cabecalho />
             </Container>
         </>
     )
