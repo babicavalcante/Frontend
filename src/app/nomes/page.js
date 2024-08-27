@@ -1,18 +1,18 @@
 'use client'
 
-import React from 'react'
-import Cabecalho from '../components/Cabecalho'
-import { Alert, Container } from 'react-bootstrap'
+import React from 'react';
+import Cabecalho from '../components/Cabecalho';
+import { Alert, Container } from 'react-bootstrap';
 import Link from 'next/link'
-import Pagina from '../components/Pagina'
+import Pagina from '../components/Pagina';
 
-export default function Fundamentos() {
+export default function Nomes() {
   
 
     return (
         <>
-        <Pagina titulo="Fundamentos">
-            <Cabecalho titulo="Fundamentos" />
+        <Pagina titulo="Nomes">
+            <Cabecalho titulo="Nomes" />
         
             <Container>
                 <Alert>
